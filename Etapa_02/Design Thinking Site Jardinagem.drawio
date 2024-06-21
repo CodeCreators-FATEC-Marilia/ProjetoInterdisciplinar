@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" modified="2024-04-07T15:23:22.837Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="vzmADkATf3wYsNFbjNsa" version="24.2.1" type="device">
+  <diagram name="Página-1" id="-HtpIlylWlmxgf5pzCaq">
+    <mxGraphModel dx="3905" dy="1325" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y9qwrxjAK54UVF01NVkx-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y9qwrxjAK54UVF01NVkx-1" target="Y9qwrxjAK54UVF01NVkx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9qwrxjAK54UVF01NVkx-1" value="&lt;div style=&quot;text-align: justify; padding-right: 20px; padding-left: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;As lojas de jardinagem de Marília e região não possuem fácil acesso virtual aos seus produtos, as lojas estão em plataformas completamente diferentes e não possuem fácil acesso para encontrá-las virtualmente.&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="244" y="385" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9qwrxjAK54UVF01NVkx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y9qwrxjAK54UVF01NVkx-9" target="Y9qwrxjAK54UVF01NVkx-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9qwrxjAK54UVF01NVkx-9" value="&lt;div style=&quot;text-align: justify; padding-right: 20px; padding-left: 20px; padding-bottom: 0px;&quot;&gt;O consumidor (possível cliente) tem interesse em algum produto relacionado a jardinagem e não consegue encontrar ou ter acessibilidade ao produto virtualmente pois cada loja está em uma plataforma diferente e por conta disso precisa ter o trabalho de ir diretamente na loja física ou passar muito tempo pesquisando para encontrar a loja e mesmo assim a loja pode não conter o produto que o cliente deseja.&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="994" y="385" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9qwrxjAK54UVF01NVkx-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y9qwrxjAK54UVF01NVkx-10" target="Y9qwrxjAK54UVF01NVkx-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9qwrxjAK54UVF01NVkx-10" value="&lt;div style=&quot;text-align: justify; padding-right: 20px; padding-left: 20px;&quot;&gt;Percebe-se a necessidade da criação de uma plataforma única em que o usuário (possível cliente) consiga interagir com diversas plataformas de jardinagem e filtrar quais lojas possuem o produto que o cliente deseja.&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1744" y="385" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9qwrxjAK54UVF01NVkx-11" value="&lt;div style=&quot;text-align: justify; padding-right: 10px; padding-left: 10px;&quot;&gt;&lt;ul style=&quot;margin-bottom: 12px; padding-bottom: 0px; padding-left: 30px; padding-right: 30px;&quot;&gt;&lt;li&gt;Uma plataforma de vendas única para todas as lojas de jardinagem para Marília e região onde os todos os vendedores/fornecedores venderiam seus produtos nessa plataforma.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul style=&quot;margin-bottom: 12px; padding-bottom: 0px; padding-left: 30px; padding-right: 30px;&quot;&gt;&lt;li&gt;O cliente terá uma plataforma única para pesquisa de lojas de jardinagem virtuais existentes em Marília e região e filtra-las baseado na sua necessidade.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify; padding-right: 10px; padding-left: 10px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;imageAspect=1;" vertex="1" parent="1">
+          <mxGeometry x="1715.5" y="933" width="357" height="357" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9qwrxjAK54UVF01NVkx-12" value="&lt;div style=&quot;text-align: justify; padding-right: 20px; padding-left: 20px;&quot;&gt;A criação de um website que mostra onde estão as plataformas virtuais das lojas de jardinagem em Marília e região e alem disso terá um filtro de pesquisa para o usuário encontrar quais lojas possuem os produtos que ele deseja para não perder tempo procurando a plataforma correta. Esses filtros serão criados baseados em produtos mostrados nas próprias plataformas de jardinagem.&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="989" y="961.5" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9qwrxjAK54UVF01NVkx-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="1" source="Y9qwrxjAK54UVF01NVkx-16" target="Y9qwrxjAK54UVF01NVkx-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9qwrxjAK54UVF01NVkx-16" value="" style="swimlane;startSize=0;fillColor=none;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="1725.5" y="1114" width="338" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9qwrxjAK54UVF01NVkx-22" value="&lt;span style=&quot;font-family: Calibri; font-size: 24px; text-align: left; text-indent: -36.48px; background-color: rgb(255, 255, 255);&quot;&gt;Entender o problema&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="244" y="347" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9qwrxjAK54UVF01NVkx-23" value="&lt;span style=&quot;font-family: Calibri; font-size: 24px; text-align: left; text-indent: -36.48px; background-color: rgb(255, 255, 255);&quot;&gt;Observar o problema&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="994" y="345" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9qwrxjAK54UVF01NVkx-24" value="&lt;span style=&quot;font-family: Calibri; font-size: 24px; text-align: left; text-indent: -36.48px; background-color: rgb(255, 255, 255);&quot;&gt;Definir a abordagem ao problema&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1719" y="347" width="351" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9qwrxjAK54UVF01NVkx-26" value="&lt;span style=&quot;font-family: Calibri; font-size: 24px; text-align: left; text-indent: -36.48px; background-color: rgb(255, 255, 255);&quot;&gt;Ideação das soluções&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1715.5" y="891" width="358.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9qwrxjAK54UVF01NVkx-27" value="&lt;span style=&quot;box-sizing: border-box; text-align: left; text-indent: -36.48px; background-color: rgb(255, 255, 255); font-size: 18pt; font-family: Calibri; border-radius: 0px !important;&quot;&gt;Prototipar&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; text-align: left; text-indent: -36.48px; background-color: rgb(255, 255, 255); font-size: 18pt; font-family: Calibri; border-radius: 0px !important;&quot;&gt;&amp;nbsp;uma solução&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="964.75" y="921" width="358.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9qwrxjAK54UVF01NVkx-29" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;&lt;b&gt;Integrantes:&lt;/b&gt;&amp;nbsp; Anna Carla, Carlos Furlan, João Guilherme&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="110" y="53" width="680" height="91" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

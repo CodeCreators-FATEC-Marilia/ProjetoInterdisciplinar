@@ -57,5 +57,14 @@ Desenvolvemos os seguintes pontos da arquitetura da informação para o projeto:
     
 Reforçando que foram utilizadas as técnicas da Arquitetura da Informação apresentadas em sala de aula.
 
+## Etapa 05 / Final
 
+Nesta etapa fizemos a construção do site, com os links das páginas das redes sociais das lojas mapeadas até o momento.
+Os respectivos endereços (via Google Maps) destas lojas.
 
+## Acesso ao site
+
+*********** Informar endereço de localização da página ou forma de acesso alternativa *****************
+*********** Complementar essas informações ******************
+
+.

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <link rel="icon" href="images/favicon.png" type="image/gif" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Jardim Livre</title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <!-- header section strats -->
+  <header class="header_section">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg custom_nav-container">
+        <a class="navbar-brand" href="index.html">
+          <span>
+            <img id="logo" src="images/logo.png" alt="Jardim Livre"> 
+          </span>
+        </a>
+        <div class="" id="">
+
+          <div class="custom_menu-btn">
+            <button onclick="openNav()">
+              <span class="s-1"> </span>
+              <span class="s-2"> </span>
+              <span class="s-3"> </span>
+            </button>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="index.html#lojas" onclick="openNav()">Lojas</a>
+                <a href="about.html">Quem Somos</a>
+                <a href="dicas.html">Dicas e Ideais</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- end header section -->
+
+  <!-- slider section -->
+  <section class="slider_section position-relative">
+    <div class="slider_bg_box">
+      <img src="images/slider-bg.jpg" alt="">
+    </div>
+    <div class="slider_bg"></div>
+    <div class="container">
+      <div class="col-md-9 col-lg-8">
+        <div class="detail-box">
+          <h1>
+            Encontre aqui, as melhores
+            <br>Lojas de jardinagem em Marília
+          </h1>
+          <p id="textoinicio">
+            É díficil procurar por uma plataforma relacionada a jardinagem e paisagismo em Marília, cada uma está em um lugar diferente ou até mesmo não existe, por isso 
+            nossa missão é ajudar você a encontrar pela sua loja ideal.
+          </p>
+          <div>
+            <a href="#lojas" class="slider-link">
+              Buscar Lojas
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end slider section -->
+  <div class="blank"></div>
+  <!-- shop section -->
+  
+  <div id="lojas" class="container my-4">
+    <button class="btn btn-brown w-100" id="toggleFilter">Filtrar Lojas</button>
+    <div id="filterPanel" class="mt-3" style="display: none;">
+        <div class="d-flex flex-wrap">
+            <button type="button" class="btn btn-outline-brown filter-tag" data-tag="vasos">Vasos</button>
+            <button type="button" class="btn btn-outline-brown filter-tag" data-tag="seixos">Seixos</button>
+            <button type="button" class="btn btn-outline-brown filter-tag" data-tag="gramas">Gramas</button>
+            <button type="button" class="btn btn-outline-brown filter-tag" data-tag="insumos">Insumos (terra, etc..)</button>
+            <button type="button" class="btn btn-outline-brown filter-tag" data-tag="mudas">Mudas Frutíferas</button>
+            <button type="button" class="btn btn-outline-brown filter-tag" data-tag="plantas">Plantas ornamentais</button>
+            <button type="button" class="btn btn-outline-brown filter-tag" data-tag="orquideas">Orquídeas</button>
+            <button type="button" class="btn btn-outline-brown filter-tag" data-tag="ervas">Ervas e hortaliças</button>
+            <button type="button" class="btn btn-outline-brown filter-tag" data-tag="maquinas">Máquinas</button>
+            <!-- Adicione mais botões de tags conforme necessário -->
+        </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row" id="storeList">
+        <!-- Exemplos de cartões de lojas -->
+        <div class="col-md-4 store-card" data-tags="vasos,seixos,gramas,insumos,mudas,plantas,orquideas,ervas">
+            <div class="card mb-4 shadow-sm text-center">
+                <img src="images/florabaio.jpg" class="card-img-top mx-auto d-block" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Flora Baio</h5>
+                    <a href="lojas/florabaio.html" class="btn btn-success">Visitar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 store-card" data-tags="vasos,seixos,gramas,insumos,mudas,plantas,orquideas,ervas">
+            <div class="card mb-4 shadow-sm text-center">
+                <img src="images/paiolverde.png" class="card-img-top mx-auto d-block" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Paiol Verde</h5>
+                    <a href="lojas/paiolverde.html" class="btn btn-success">Visitar</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 store-card" data-tags="vasos,seixos,gramas,insumos,mudas,plantas,orquideas,ervas">
+          <div class="card mb-4 shadow-sm text-center">
+              <img src="images/mudasbr.jpg" class="card-img-top mx-auto d-block" alt="">
+              <div class="card-body">
+                  <h5 class="card-title">Mudas BR</h5>
+                  <a href="lojas/mudasbr.html" class="btn btn-success">Visitar</a>
+              </div>
+          </div>
+      </div>
+      
+      <div class="col-md-4 store-card" data-tags="vasos,seixos,gramas,insumos,mudas,plantas,orquideas,ervas">
+        <div class="card mb-4 shadow-sm text-center">
+            <img src="images/florabella.jpg" class="card-img-top mx-auto d-block" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Flora Bella</h5>
+                <a href="lojas/florabella.html" class="btn btn-success">Visitar</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 store-card" data-tags="vasos,plantas,orquideas,ervas">
+        <div class="card mb-4 shadow-sm text-center">
+            <img src="images/casasol.jpg" class="card-img-top mx-auto d-block" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Casa Sol</h5>
+                <a href="lojas/casasol.html" class="btn btn-success">Visitar</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 store-card" data-tags="plantas,orquideas">
+        <div class="card mb-4 shadow-sm text-center">
+            <img src="images/cobasi.png" class="card-img-top mx-auto d-block" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Cobasi</h5>
+                <a href="lojas/cobasi.html" class="btn btn-success">Visitar</a>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-4 store-card" data-tags="insumos,mudas,ervas">
+        <div class="card mb-4 shadow-sm text-center">
+            <img src="images/coop.jpg" class="card-img-top mx-auto d-block" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Cooperativa Sul Brasil</h5>
+                <a href="lojas/coop.html" class="btn btn-success">Visitar</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 store-card" data-tags="vasos,seixos,gramas,insumos,mudas,plantas,orquideas,ervas">
+        <div class="card mb-4 shadow-sm text-center">
+            <img src="images/cascata.jpg" class="card-img-top mx-auto d-block" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Cascata Plantas e Flores</h5>
+                <a href="lojas/cascata.html" class="btn btn-success">Visitar</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 store-card" data-tags="vasos,seixos,gramas,insumos,mudas,plantas,orquideas,ervas">
+        <div class="card mb-4 shadow-sm text-center">
+            <img src="images/agave.jpg" class="card-img-top mx-auto d-block" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Agave Floraria</h5>
+                <a href="lojas/agave.html" class="btn btn-success">Visitar</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 store-card" data-tags="maquinas">
+        <div class="card mb-4 shadow-sm text-center">
+            <img src="images/gbs.jpg" class="card-img-top mx-auto d-block" alt="">
+            <div class="card-body">
+                <h5 class="card-title">GBS Máquinas e Ferramentas</h5>
+                <a href="lojas/gbs.html" class="btn btn-success">Visitar</a>
+            </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4 store-card" data-tags="maquinas">
+        <div class="card mb-4 shadow-sm text-center">
+            <img src="images/agrometal.png" class="card-img-top mx-auto d-block" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Agrometal Marília</h5>
+                <a href="lojas/agrometal.html" class="btn btn-success">Visitar</a>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 store-card" data-tags="maquinas">
+        <div class="card mb-4 shadow-sm text-center">
+            <img src="images/rpm.jpg" class="card-img-top mx-auto d-block" alt="">
+            <div class="card-body">
+                <h5 class="card-title">RPM Máquinas e manutenção</h5>
+                <a href="lojas/rpm.html" class="btn btn-success">Visitar</a>
+            </div>
+        </div>
+      </div>
+        
+    </div>
+  </div>
+
+  <div class="blank2"></div>
+
+  <!-- blog section -->
+<div class="bgfiltro">
+  <section class="blog_section ">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          Dicas e Ideias
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="box">
+            <div class="img-box">
+              <img class="fotoblog" src="images/b1.jpg" alt="">
+              <h4 class="blog_date">
+                20 <br>
+                Junho
+              </h4>
+            </div>
+            <div class="detail-box">
+              <h5>
+                Orquídeas: Beleza e Elegância no Seu Jardim
+              </h5>
+              <p>
+                As orquídeas são uma das plantas mais fascinantes e elegantes que você pode cultivar em
+                seu jardim. Com suas flores exóticas e vibrantes, elas têm o poder de transformar qualquer
+                espaço verde em um verdadeiro espetáculo de cores e formas.   
+              </p>
+              <a href="orquidea.html">
+                Leia sobre
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="box">
+            <div class="img-box">
+              <img class="fotoblog" src="images/b2.jpg" alt="">
+              <h4 class="blog_date">
+                13 <br>
+                Junho
+              </h4>
+            </div>
+            <div class="detail-box">
+              <h5>
+                O Cantinho do Sossego
+              </h5>
+              <p>
+                Você já imaginou um espaço no seu jardim onde a paz e a tranquilidade reinam soberanas? Neste artigo, vamos
+                explorar como criar um ambiente que não só embeleza seu jardim, mas também proporciona
+                momentos de relaxamento e contemplação.
+              </p>
+              <a href="sossego.html">
+                Leia sobre
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- info section -->
+  <section id="foooter" class="info_section layout_padding2">
+    <div class="container">
+      <div class="row info_main_row">
+        <div class="col-md-6 col-lg-3">
+          <div class="info_links">
+            <h4>
+              Menu
+            </h4>
+            <div class="info_links_menu">
+              <a href="index.html">Home</a>
+              <a href="about.html">Quem Somos</a>
+              <a href="dicas.html">Dicas e Ideias</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="info_detail">
+            <h4>
+              Quem Somos
+            </h4>
+            <p class="mb-0">
+              Somos alunos da primeira turma de Desenvolvimento de Software Multiplataforma da Fatec Marília.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <h4>
+            Contato
+          </h4>
+          <div class="info_contact">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                Marília - São Paulo
+              </span>
+            </a>
+            <br> 
+              <i class="fa fa-envelope"></i>
+              <span>
+                jardimlivre@gmail.com
+              </span>
+            </a>
+          </div>
+          <div class="social_box">
+            <a href="https://github.com/CodeCreators-FATEC-Marilia/ProjetoInterdisciplinar" target="_blank">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+
+  <!-- footer section -->
+<div class="bgfiltro">
+  <footer class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> Todos os direitos reservados por CodeCreators
+      </p>
+    </div>
+  </footer>
+</div>
+  <!-- footer section -->
+</div>
+
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>

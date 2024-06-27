@@ -64,7 +64,9 @@ Os respectivos endereços (via Google Maps) destas lojas.
 
 ## Acesso ao site
 
-*********** Informar endereço de localização da página ou forma de acesso alternativa *****************
-*********** Complementar essas informações ******************
+Todo o código desenvolvido encontra-se na pasta: PI Jardim Livre
+
+  1. Apps, ferramentas e tecnologias utilizadas para o desenvolvimento do trabalho.
+  2. HTML, CSS, Bootstrap, Javascript, Jquery, Draw io, Adobe, Canva, 
 
 .
